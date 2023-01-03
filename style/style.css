@@ -52,19 +52,27 @@ body {
     justify-content: center;
     position: relative;
 }
-.content {
+#content {
     display: flex;
+    margin-left: 50px;
     justify-content: center;
+    margin-bottom: 200px;
     font-size: x-large;
-    margin-right: 100px;
     font-family:'Poppins', sans-serif;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)),
+        url(../image/hero_image.png);
+        width:90%; height: 100vh;
+        background-size:cover;
 }
 .flex_content_image{
-    opacity: 0,5;
-    left: 50px;
+    left: 0px;
+   
+    
 }
 .flex_content_text {
-    margin: 180px 0px 300px 210px;
+    margin: 250px 0px 350px 210px;
     height: 400px;
     text-align: center;
 }
@@ -124,36 +132,40 @@ body {
     color: #000;
     text-align: center;
     width: 400px;
-    margin-left: 300px;
+    margin-left: 500px;
     font-size: 48px;
+    margin-top: 100px;
 }
 .flex_content2_card_image {
-    margin-top: 200px;
+    margin-top: 300px;
     margin-left: -850px;
 
 }
 .flex_content2_card2_image{
-    margin-top: 200px;
+    margin-top: 300px;
     margin-left: -400px;
 }
 .flex_content2_card3_image{
-    margin-top: 200px;
+    margin-top: 300px;
     margin-left: 50px;
 }
 .flex_content2_card_text {
     margin-top: 20px;
     margin-left: -1350px;
     text-align: center;
+    font-size: 24px;
 }
 .flex_content2_card2_text {
     margin-top: 20px;
     margin-left: -500px;
     text-align: center;
+    font-size: 24px;
 }
 .flex_content2_card3_text {
     margin-top: 20px;
     margin-left: 50px;
     text-align: center;
+    font-size: 24px;
 }
 .flex_content3 {
     display: flex;
@@ -166,39 +178,45 @@ body {
 }
 .flex_content3_caption h2 {
     color: #000;
-    text-align: center;
+    justify-content: center;
     width: 400px;
-    margin-left: 100px;
+    margin-left: 500px;
     font-size: 48px;
     margin-top: 50px;
 }
 .flex_content3_left {
     display: flex;
-    justify-content: center;
+    margin-left: -813px;
+    justify-content: left;
 }
 .flex_content3_right{
     display: flex;
-    justify-content: center;
+    justify-content: right;
+    margin-left: -999px;
 }
 .flex_content3_card_text {
     margin-top: 150px;
-    margin-left: -700px;
     text-align: center;
+    font-size: 24px;
+    width: 500px;
 }
 .flex_content3_card2_text {
     margin-top: 150px;
-    margin-left: -100px;
     text-align: center;
+    font-size: 24px;
+    width: 500px;
 }
 .flex_content3_card3_text {
     margin-top: 300px;
-    margin-left: -1000px;
     text-align: center;
+    font-size: 24px;
+    width: 500px;
 }
 .flex_content3_card4_text {
     margin-top: 300px;
-    margin-left: -250px;
     text-align: center;
+    font-size: 24px;
+    width: 500px;
 }
 
 .flex_content_image {
